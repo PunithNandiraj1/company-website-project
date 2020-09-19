@@ -1,0 +1,82 @@
+body{
+    background: url(images/road-nature-trees-branches-38537.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arvo serif;
+}
+
+.logo{
+    height: 30px;
+}
+.navbar-inverse{
+    background: rgba(0,0,0,0.5);
+}
+.nav li{
+    color: white;
+    font-size: 19px;
+    margin-right: 35px;
+    padding: 10px 0;
+    
+}
+.nav li:hover{
+    border-bottom: 1px solid #00FFB8;
+    padding-bottom: 9px;
+    cursor: pointer;
+    
+}
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+    
+}
+.container{
+    max-width: 1000px;
+    margin-bottom: 80px;
+}
+.bodyimage{
+    height: 100px;
+    
+}
+.col-md-4{
+    text-align: center;
+    color: white;
+}
+.icons p{
+    font-size: 15px;
+}
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+}
+.btn{
+    background-color: rgba(0,255,184,0.5);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+.btn:hover{
+    background-color: #00FFB8;
+    color: white;
+    border: none;
+}
+.footer{
+    background-color: rgba(0,0,0,0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+}
+@media(max-width: 768px){
+    .bodyimage{
+        height: 70px;
+    }
+}
